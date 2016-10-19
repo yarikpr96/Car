@@ -9,7 +9,7 @@ import java.net.URLEncoder;
 public class SMSCSender {
 
     private String SMSC_LOGIN    = "hek96";    // логин клиента
-    private String SMSC_PASSWORD = "q12345qqq";    // пароль или MD5-хеш пароля в нижнем регистре
+    private String SMSC_PASSWORD = "*********";    // пароль или MD5-хеш пароля в нижнем регистре
     private boolean SMSC_HTTPS   = false;         // использовать HTTPS протокол
     private String SMSC_CHARSET  = "utf-8";       // кодировка сообщения: koi8-r, windows-1251 или utf-8 (по умолчанию)
     private boolean SMSC_DEBUG   = false;         // флаг отладки
